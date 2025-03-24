@@ -1,7 +1,11 @@
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <h1>Amber Diane Hill</h1>
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 }
